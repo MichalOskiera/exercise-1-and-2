@@ -1,8 +1,5 @@
-[workspace]
-members = [
-    'node',
-    'pallets/*',
-    'runtime',
-]
-[profile.release]
-panic = 'unwind'
+[package]
+authors = ['Michal Oskiera']
+build = 'build.rs'
+description = 'A fresh FRAME-based Substrate node, ready for hacking.'
+edition = '2018'
